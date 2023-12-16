@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CeloBank</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <img src="./assets/imgs/logo.svg" alt="CeloBank" />
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar__link--active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Products</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Features</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <a href="#!" class="header-action__link">Log in</a>
+                        <a href="#!" class="header-action__btn btn">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <section class="hero__content">
+                            <div class="section__title">
+                                Digital Smart Wallet
+                            </div>
+                            <h1 class="hero__heading">
+                                Digital
+                                <strong class="hero__heading--emphasize"
+                                    >Payment</strong
+                                >
+                                For Everyone.
+                            </h1>
+                            <p class="hero__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <form action="" class="subscribe-form">
+                                <input
+                                    type="email"
+                                    class="subscribe-form__input"
+                                    placeholder="Your email address"
+                                />
+                                <button
+                                    type="submit"
+                                    class="subscribe-form__submit btn"
+                                >
+                                    Get Started
+                                </button>
+                            </form>
+                            <p class="hero__notice">
+                                *We’ll respect the inbox and never share your
+                                email.
+                            </p>
+                        </section>
+                        <div class="hero__media">
+                            <figure class="hero__img-wrap">
+                                <img
+                                    src="./assets/imgs/hero-screen.png"
+                                    alt=""
+                                    class="hero__img"
+                                />
+                                <div class="hero-deposite">
+                                    <img
+                                        src="./assets/icons/hero-deposite.svg"
+                                        alt=""
+                                    />
+                                    <span class="hero-deposite__title"
+                                        >Deposite</span
+                                    >
+                                    <span class="hero-deposite__value"
+                                        >$32000</span
+                                    >
+                                </div>
+                                <div class="hero-interest">
+                                    <span class="hero-interest__value">0%</span>
+                                    <span class="hero-interest__title"
+                                        >Interest</span
+                                    >
+                                </div>
+                                <div class="hero-fund">
+                                    <img
+                                        src="./assets/icons/hero-fund.svg"
+                                        alt=""
+                                    />
+                                    <div class="hero-fund__info">
+                                        <span class="hero-fund__value"
+                                            >$1.310</span
+                                        >
+                                        <span class="hero-fund__title"
+                                            >SECURED FUNDS</span
+                                        >
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Work -->
+            <section class="work">
+                <div class="container">
+                    <div class="work__inner">
+                        <div class="work__media">
+                            <figure class="work__img-wrap">
+                                <img
+                                    src="./assets/imgs/work-01.png"
+                                    alt=""
+                                    class="work__img"
+                                />
+                                <img
+                                    src="./assets/imgs/work-background.png"
+                                    alt=""
+                                    class="work-img__background"
+                                />
+                                <img
+                                    src="./assets/imgs/work-card.svg"
+                                    alt=""
+                                    class="work__card"
+                                />
+                            </figure>
+                            <div class="work-card">
+                                <img
+                                    src="./assets/icons/work-check.svg"
+                                    alt=""
+                                    class="work-card__img"
+                                />
+                                <div class="work-card__info">
+                                    <span class="work-card__title"
+                                        >Congratulations</span
+                                    >
+                                    <p class="work-card__desc">
+                                        Your account activated
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="word__content">
+                            <p class="section__title">Digital Smart Wallet</p>
+                            <h2 class="section__heading work__heading">
+                                How It Works
+                            </h2>
+                            <ul class="work__list">
+                                <li class="work-item">
+                                    <h3 class="work-item__heading">
+                                        1. Open a High Interest Checking account
+                                    </h3>
+                                    <p class="work-item__desc">
+                                        Fund your bank account with a minimum
+                                        balance of $100. Enroll in 3 minutes or
+                                        less!
+                                    </p>
+                                </li>
+                                <li class="work-item">
+                                    <h3 class="work-item__heading">
+                                        2. 10 point-of-sale transactions each
+                                        Month that are at least $10 each.
+                                    </h3>
+                                    <p class="work-item__desc">
+                                        Be sure to use your rewards checking
+                                        account as often as possible in order to
+                                        accue APYI
+                                    </p>
+                                </li>
+                                <li class="work-item">
+                                    <h3 class="work-item__heading">
+                                        3. Receive up to 5.50% APY
+                                    </h3>
+                                    <p class="work-item__desc">
+                                        The APY you earn will be based on your
+                                        account balance and satisfying the
+                                        transaction requirement.
+                                    </p>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <!-- Feature -->
+            <section class="feature">
+                <div class="container">
+                    <div class="feature__inner">
+                        <section class="feature__content">
+                            <p class="section__title">Digital Smart Wallet</p>
+                            <h2 class="section__heading">
+                                One Card For All Your Payments
+                            </h2>
+                            <p class="section__desc feature__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <ul class="feature__list">
+                                <li class="feature-item">Global Payments</li>
+                                <li class="feature-item">One-Click Purchase</li>
+                                <li class="feature-item">Friendly Price</li>
+                            </ul>
+                            <a href="#!" class="btn feature__cta"
+                                >Get Started</a
+                            >
+                        </section>
+                        <div class="feature__media">
+                            <div class="card__inner">
+                                <div class="card__top">
+                                    <p class="card__name">Main Balance</p>
+                                    <b class="card__value">$78,355.17</b>
+                                </div>
+                                <div class="card__bottom">
+                                    <div class="card__valid">
+                                        <p class="card-valid__title">
+                                            VALID THRU
+                                        </p>
+                                        <p class="card-valid__date">08/22</p>
+                                    </div>
+                                    <div class="card__holder">
+                                        <p class="card-hoder__name">
+                                            Md Moshqur Alam
+                                        </p>
+                                        <p class="card-hoder__title">
+                                            CARD HOLDER
+                                        </p>
+                                    </div>
+                                </div>
+                                <img
+                                    src="./assets/imgs/feature-card-deco-01.svg"
+                                    alt=""
+                                    class="card__decor"
+                                />
+                                <img
+                                    src="./assets/imgs/feature-card-deco-02.svg"
+                                    alt=""
+                                    class="card__decor"
+                                />
+                                <img
+                                    src="./assets/imgs/feature-card-deco-03.svg"
+                                    alt=""
+                                    class="card__decor"
+                                />
+                            </div>
+                            <div class="card__notice">
+                                <img
+                                    src="./assets/icons/feature-card.svg"
+                                    alt=""
+                                    class="card-notice__icon"
+                                />
+                                <div class="card-notice__content">
+                                    <div class="card-notice__row">
+                                        <span class="card-notice__service"
+                                            >Send Money</span
+                                        >
+                                        <span class="card-notice__money"
+                                            >- $600</span
+                                        >
+                                    </div>
+                                    <div class="card-notice__row">
+                                        <span class="card-notice__provider"
+                                            >Airbnb Payment</span
+                                        >
+                                        <span class="card-notice__date"
+                                            >Sep 23</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__notice-bottom">
+                                <img
+                                    src="./assets/icons/bottom-notice-card.svg"
+                                    alt=""
+                                    class="bottom-notice__icon"
+                                />
+                                <span class="bottom-notice__title">Income</span>
+                                <span class="bottom-notice__value">$1250</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature__inner feature__inner-bottom">
+                        <section class="feature__content">
+                            <p class="section__title">Digital Smart Wallet</p>
+                            <h2 class="section__heading">
+                                Transfer and Deposite Your Money Anytime
+                            </h2>
+                            <p class="section__desc feature__desc">
+                                We bring together eveything that’s required to
+                                build websites and apps that accept payments and
+                                send payouts globally. We are the best platform.
+                            </p>
+                            <ul class="feature__list">
+                                <li class="feature-item">Powerfull App</li>
+                                <li class="feature-item">
+                                    Transparency And Speed
+                                </li>
+                                <li class="feature-item">
+                                    Multiple Use Capabilities
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn feature__cta"
+                                >Get Started</a
+                            >
+                        </section>
+                        <div class="feature__media">
+                            <figure class="feature__img-wrap">
+                                <img
+                                    src="./assets/imgs/feature-img.png"
+                                    alt=""
+                                    class="feature__img"
+                                />
+                                <img
+                                    src="./assets/imgs/feature-background.png"
+                                    alt=""
+                                    class="feature__img-background"
+                                />
+                            </figure>
+                            <div class="feature__card-method">
+                                <p class="card-method__title">
+                                    Choose payment method:
+                                </p>
+                                <ul class="card-method__list">
+                                    <li class="card-method__item">
+                                        <img
+                                            src="./assets/imgs/card-name-01.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li class="card-method__item">
+                                        <img
+                                            src="./assets/imgs/card-name-02.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li class="card-method__item">
+                                        <img
+                                            src="./assets/imgs/card-name-03.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li class="card-method__item">
+                                        <img
+                                            src="./assets/imgs/card-name-04.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li class="card-method__item">
+                                        <img
+                                            src="./assets/imgs/card-name-05.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li class="card-method__item">
+                                        <img
+                                            src="./assets/imgs/card-name-06.svg"
+                                            alt=""
+                                        />
+                                    </li>
+                                </ul>
+                            </div>
+                            <img
+                                src="./assets/imgs/feature-money.svg"
+                                alt=""
+                                class="feature__money"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Feedback -->
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__top">
+                        <p class="section__title feedback__title">
+                            Our Testimonial
+                        </p>
+                        <h2 class="section__heading feedback__heading">
+                            What Clients Says
+                        </h2>
+                        <p class="section__desc feedback__desc">
+                            Read what clients says about us and about our online
+                            banking services that may inspire you
+                        </p>
+                    </div>
+                    <div class="feedback__content">
+                        <ul class="feedback__list">
+                            <li class="feedback-item">
+                                <blockquote class="feedback-item__content">
+                                    Fantastic platform for online banking. The
+                                    best online banking platform I have used.
+                                    Payments, loans, and money transfers have
+                                    never been so much easier before. I am very
+                                    much happy about this great online bank.
+                                </blockquote>
+                                <div class="feedback-author">
+                                    <figure class="feedback-author__img-wrap">
+                                        <img
+                                            src="./assets/imgs/feedbacker-01.png"
+                                            alt=""
+                                            class="feedback-author__img"
+                                        />
+                                    </figure>
+                                    <p class="feedback-author__name">
+                                        Alastair Cook
+                                    </p>
+                                    <p class="feedback-author__job">
+                                        Businessmen
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="feedback-item">
+                                <blockquote class="feedback-item__content">
+                                    Fantastic platform for online banking. The
+                                    best online banking platform I have used.
+                                    Payments, loans, and money transfers have
+                                    never been so much easier before. I am very
+                                    much happy about this great online bank.
+                                </blockquote>
+                                <div class="feedback-author">
+                                    <figure
+                                        class="feedback-author__img-wrap right"
+                                    >
+                                        <img
+                                            src="./assets/imgs/feedbacker-02.png"
+                                            alt=""
+                                            class="feedback-author__img"
+                                        />
+                                    </figure>
+                                    <p class="feedback-author__name">
+                                        Alastair Cook
+                                    </p>
+                                    <p class="feedback-author__job">
+                                        Businessmen
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="feedback-item">
+                                <blockquote class="feedback-item__content">
+                                    Fantastic platform for online banking. The
+                                    best online banking platform I have used.
+                                    Payments, loans, and money transfers have
+                                    never been so much easier before. I am very
+                                    much happy about this great online bank.
+                                </blockquote>
+                                <div class="feedback-author">
+                                    <figure
+                                        class="feedback-author__img-wrap right"
+                                    >
+                                        <img
+                                            src="./assets/imgs/feedbacker-02.png"
+                                            alt=""
+                                            class="feedback-author__img"
+                                        />
+                                    </figure>
+                                    <p class="feedback-author__name">
+                                        Alastair Cook
+                                    </p>
+                                    <p class="feedback-author__job">
+                                        Businessmen
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="feedback__arrows">
+                            <div
+                                class="feedback__arrow feedback__arrow--active"
+                            ></div>
+                            <div class="feedback__arrow"></div>
+                            <div class="feedback__arrow"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog -->
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__top">
+                        <section class="blog-top__header">
+                            <p class="section__title">Our Blog</p>
+                            <h2 class="section__heading">Get The Updates</h2>
+                            <p class="section__desc blog__desc">
+                                Read our blog for the regular updates about us
+                                and about our online banking services that may
+                                inspire you
+                            </p>
+                        </section>
+                        <div class="blog__cta">
+                            <a href="#!" class="btn">Read All</a>
+                        </div>
+                    </div>
+                    <div class="blog__list">
+                        <!-- Blog item 1 -->
+                        <article class="blog-item">
+                            <img
+                                src="./assets/imgs/blog-01.png"
+                                alt=""
+                                class="blog-item__img"
+                            />
+                            <section class="blog-item__info">
+                                <p class="blog-item__date">July 03, 2022</p>
+                                <h3>
+                                    <a href="#!" class="blog-item__title"
+                                        >Online bank is the best and secure way
+                                        to save in the future...
+                                    </a>
+                                </h3>
+                                <a href="#!" class="blog-item__more"
+                                    >Read Blog</a
+                                >
+                            </section>
+                        </article>
+                        <!-- Blog item 2 -->
+                        <article class="blog-item">
+                            <img
+                                src="./assets/imgs/blog-02.png"
+                                alt=""
+                                class="blog-item__img"
+                            />
+                            <section class="blog-item__info">
+                                <p class="blog-item__date">July 03, 2022</p>
+                                <h3>
+                                    <a href="#!" class="blog-item__title"
+                                        >Online bank is the best and secure way
+                                        to save in the future...
+                                    </a>
+                                </h3>
+                                <a href="#!" class="blog-item__more"
+                                    >Read Blog</a
+                                >
+                            </section>
+                        </article>
+                        <!-- Blog item 3 -->
+                        <article class="blog-item">
+                            <img
+                                src="./assets/imgs/blog-03.png"
+                                alt=""
+                                class="blog-item__img"
+                            />
+                            <section class="blog-item__info">
+                                <p class="blog-item__date">July 03, 2022</p>
+                                <h3>
+                                    <a href="#!" class="blog-item__title"
+                                        >Online bank is the best and secure way
+                                        to save in the future...
+                                    </a>
+                                </h3>
+                                <a href="#!" class="blog-item__more"
+                                    >Read Blog</a
+                                >
+                            </section>
+                        </article>
+                        <!-- Blog item 4 -->
+                        <article class="blog-item">
+                            <img
+                                src="./assets/imgs/blog-04.png"
+                                alt=""
+                                class="blog-item__img"
+                            />
+                            <section class="blog-item__info">
+                                <p class="blog-item__date">July 03, 2022</p>
+                                <h3>
+                                    <a href="#!" class="blog-item__title"
+                                        >Online bank is the best and secure way
+                                        to save in the future...
+                                    </a>
+                                </h3>
+                                <a href="#!" class="blog-item__more"
+                                    >Read Blog</a
+                                >
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- CTA -->
+            <section class="cta">
+                <div class="container">
+                    <div class="cta__inner">
+                        <p class="section__title cta__title">Our App</p>
+                        <h2 class="section__heading cta__heading">
+                            Download the Apps
+                        </h2>
+                        <p class="cta__desc">
+                            Download our mobile apps and get started today with
+                            a special online bank and move faster
+                        </p>
+                        <div class="cta__app-list">
+                            <a href="#!" class="cta__app">
+                                <img src="./assets/imgs/cta-gp.svg" alt="" />
+                            </a>
+                            <a href="#!" class="cta__app">
+                                <img src="./assets/imgs/cta-as.svg" alt="" />
+                            </a>
+                        </div>
+                        <div>
+                            <img
+                                src="./assets/imgs/cta-star.svg"
+                                alt=""
+                                class="cta__decor"
+                            />
+                            <img
+                                src="./assets/imgs/cta-star.svg"
+                                alt=""
+                                class="cta__decor"
+                            />
+                            <img
+                                src="./assets/imgs/cta-star.svg"
+                                alt=""
+                                class="cta__decor"
+                            />
+                            <img
+                                src="./assets/imgs/cta-star.svg"
+                                alt=""
+                                class="cta__decor"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <!-- Column 1 -->
+                    <div class="footer__column">
+                        <img
+                            src="./assets/imgs/logo.svg"
+                            alt=""
+                            class="footer__logo"
+                        />
+                    </div>
+                    <!-- Column 2 -->
+                    <section class="footer__column">
+                        <h3 class="footer__heading">Sitemap</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <a href="#!" class="footer__link">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Abouts</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Growers</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Merchants</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Contact</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- Column 3-->
+                    <section class="footer__column">
+                        <h3 class="footer__heading">Social</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <a href="#!" class="footer__link">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__link">Twitter</a>
+                            </li>
+                            
+                        </ul>
+                    </section>
+                    <section class="footer__column">
+                        <h3 class="footer__heading">Head Office</h3>
+                        <p class="footer-column__desc">
+                            Xilliams Corner Wine © 2017. 1112 A Market St # Ste
+                            B22, Charlottesville, CA 45565
+                        </p>
+                        <h3 class="footer__heading footer__heading-bottom">News letter</h3>
+                        <form action="" class="footer__subscribe-form">
+                            <input type="text" class="footer__input" placeholder="Email address...">
+                            <button class="footer__submit">Subscribe</button>
+                        </form>
+                    </section>
+                </div>
+                <div class="footer__row-bottom">
+                    <p class="footer__email">email@gmail.com</p>
+                    <p class="footer__phone">(123) 456-7890</p>
+                </div>
+
+            </div>
+            <p class="footer__copyright">© 2020 Ligft Media All rights reserved.</p>
+        </footer>
+    </body>
+</html>
